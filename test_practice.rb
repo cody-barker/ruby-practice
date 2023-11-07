@@ -11,6 +11,6 @@ end
 describe Calculator do
     let(:calc) {Calculator.new}
     it "subtract two numbers" do
-        expect(calc.minus(4,3)).to eq(1)
+        expect(calc.subtract(4,3)).to eq(1)
     end
 end
