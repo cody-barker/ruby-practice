@@ -15,3 +15,4 @@ def contains_nearby_duplicate(nums, k)
   false
 end
 
+p contains_nearby_duplicate(nums, k)
