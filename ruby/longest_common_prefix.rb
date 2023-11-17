@@ -1,6 +1,6 @@
 require 'pry'
 
-string = ["flower", "flow"]
+strings = ["flower", "flow", "flaw"]
 
 # def longest_common_prefix(strs)
 #   strs = strs.sort
@@ -16,9 +16,24 @@ string = ["flower", "flow"]
 #   result
 # end
 
+# def longest_common_prefix(strings)
+#   result=""
+#   strings = strings.sort
+#   strings[0].length.times do |i|
+#     if strings[0][i] == strings[-1][i]
+#       result += strings[0][i]
+#     else
+#       break
+#     end
+#   end
+#   result
+# end
+
+# p longest_common_prefix(string)
+
 def longest_common_prefix(strings)
-  result=""
-  strings = strings.sort
+  result = ""
+  strings.sort
   strings[0].length.times do |i|
     if strings[0][i] == strings[-1][i]
       result += strings[0][i]
@@ -29,4 +44,4 @@ def longest_common_prefix(strings)
   result
 end
 
-p longest_common_prefix(string)
+p longest_common_prefix(strings)
