@@ -1,6 +1,4 @@
 
-
-
 def is_happy(n)
     if n == 1
       return true
