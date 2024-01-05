@@ -18,10 +18,20 @@ num = 12321
 // }
 
 //optimized solution
-function isPalindrome(x) {
-  const str = x.toString();
-  const reversedStr = str.split("").reverse().join("");
-  return str === reversedStr;
+// function isPalindrome(x) {
+//   const str = x.toString();
+//   const reversedStr = str.split("").reverse().join("");
+//   return str === reversedStr;
+// }
+
+// console.log(isPalindrome(num))
+
+function isPalindrome(num) {
+  const str = num.toString()
+  const reversedString = str.split("").reverse().join("")
+  console.log(str === reversedString)
 }
 
-console.log(isPalindrome(num))
+const number = 12341
+
+isPalindrome(number)
