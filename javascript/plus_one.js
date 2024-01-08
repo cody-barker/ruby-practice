@@ -1,4 +1,4 @@
-const nums = [1,2,3,4]
+const nums = [1,2,3,9]
 
 
 // var plusOne = function(digits) {
